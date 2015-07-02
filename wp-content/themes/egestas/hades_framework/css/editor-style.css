@@ -1,0 +1,36 @@
+/* CSS Document */
+
+body { background:#fafafa; }
+.layout_element { margin-right:1.2%; float: left; min-height: 1px; border:1px dotted #ddd; padding:1%; background:#ffffff }
+
+.full-width { width: 95.3%; min-height: 1px; border:1px dotted #ddd; padding:1%; background:#ffffff }
+.one_half_last , .one_half { width: 47.3%;   }
+.one_third  , .one_third_last { width: 30.40%;   }
+.one_fourth ,.one_fourth_last  { width: 21.95%;  }
+.two_third , .two_third_last  { width: 64%;  }
+.three_fourth , .three_fourth_last { width: 72.55%;  }
+.one_fifth , .one_fifth_last { width:16.9%;  }
+.four_fifth  ,.four_fifth_last { width:77.6%;  }
+.one_sixth , .one_sixth_last  { width: 13.55%;  }
+.five_sixth , .five_sixth_last{ width: 80.9%;  }
+
+
+.one_half_last , .one_third_last , .one_fourth_last , .two_third_last , .three_fourth_last , .one_fifth_last  , .four_fifth_last , .one_sixth_last , .five_sixth_last  { padding-right:0; clear:right; margin-right:0;}
+
+.clearfix { clear:both!important; width:100%; margin:10px 0; }
+.clearfix:after , .full-width:after {
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+.clearfix , .full-width{ display:inline-block; zoom:1; }
+* html .clearfix , { height:1%; }
+.clearfix , .full-width{ display:block; }
+.layout_element  img { /* Makes sure your images stay within their columns */
+   max-width: 100%;
+   width: auto;
+   height: auto;
+}

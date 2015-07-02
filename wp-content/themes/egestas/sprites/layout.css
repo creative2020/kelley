@@ -1,0 +1,187 @@
+/* CSS Document */
+
+/* 
+
+ == Index ========================
+ 
+ 1. Core Skeletons
+ 2. Layouts
+ 3. Sidebars
+ 4. Layout padding classes
+ 5. Layout margin classes
+ 6. Responsive queries
+
+*/
+
+/* ================================================================================== */
+/* == Core Skeletons ================================================================ */
+/* ================================================================================== */
+
+.cushion { padding:0px 20px!important; }
+.cushion-h { padding:40px 0px ; }
+.cushion-v { padding:20px; }
+.skeleton {
+width:960px;
+padding:0 40px;
+position:relative; 
+z-index:2; 
+margin:0 auto;
+
+}
+
+.full-width .component_skeleton  {
+position:relative; margin: 0 auto;
+}
+
+
+
+div.super-wrapper {  
+margin:0 auto; 
+padding:0;
+position:relative; 
+z-index:3; 
+
+ }
+div.bg-texture div.boxable {
+width:1040px;  }
+div.set-margin { padding:60px 0 60px 0; }
+
+
+/* ================================================================================== */
+/* == Responsive Layout ============================================================= */
+/* ================================================================================== */
+
+.layout_element { margin-right:40px; float: left; min-height: 1px; margin-bottom:10px; }
+.layout_element img { max-width:100%; }
+
+
+
+.one_half { width:455px;  }
+.one_half_last { width:455px;  }
+
+.one_third , .one_third_last { width:293px; }
+
+.one_fourth , .one_fourth_last { width:210px;  }
+
+
+.two_third , .two_third_last{ width:625px;  }
+ 
+.three_fourth , .three_fourth_last { width:710px;  }
+
+.one_fifth , .one_fifth_last  { width:160px;  }
+
+.four_fifth ,.four_fifth_last { width:750px;  }
+
+
+
+.two-third-width .layout_element , .one-third-width .layout_element {  float: left; min-height: 1px; padding-right:4%; margin-right:0; }
+
+.two-third-width .one_half_last , .two-third-width .one_half  , .one-third-width .one_half_last , .one-third-width .one_half { width: 48%;   }
+
+.two-third-width .one_third , .one-third-width .one_third { width: 30.35%;   }
+.two-third-width .one_third_last  , .one-third-width .one_third_last { width: 30.35%;   }
+
+.two-third-width .one_fourth , .one-third-width .one_fourth { width: 21.45%;  }
+.two-third-width .one_fourth_last , .one-third-width .one_fourth_last { width: 21.45%;   }
+
+.two-third-width .two_third , .one-third-width .two_third { width: 65.4%;  }
+.two-third-width .two_third_last , .one-third-width .two_third_last { width: 65.4%;  }
+
+.two-third-width .three_fourth , .one-third-width .three_fourth { width: 73.05%;  }
+.two-third-width .three_fourth_last , .one-third-width .three_fourth_last { width: 73.05%;  }
+
+.two-third-width .one_fifth  , .one-third-width .one_fifth { width:16.5%;  }
+.two-third-width .one_fifth_last , .one-third-width .one_fifth_last { width:16.5%;   }
+
+.two-third-width .four_fifth  , .one-third-width .four_fifth { width:78.2%;  }
+.two-third-width .four_fifth_last , .one-third-width .four_fifth_last { width:78.2%; }
+
+
+
+
+.one_half_last , div.one_third_last , .one_fourth_last , .two_third_last , .three_fourth_last , .one_fifth_last  , .four_fifth_last , .one_sixth_last , .five_sixth_last  { padding-right:0!important; clear:right; margin-right:0!important;}
+
+
+
+/* ================================================================================== */
+/* == Page Layouts & Sidebar ======================================================== */
+/* ================================================================================== */
+
+/* == Right Sidebar ========================== */
+
+.hasRightSidebar .two-third-width { float:left; width:640px; padding-right:40px;  }
+.blog-template   .two-third-width {  width:680px; padding-right:0px; }
+.hasRightSidebar .sidebar { float:left; width:239px; padding:0 0 0 39px; border-left:1px solid #e3e3e3;  padding-bottom:40px; margin-bottom:0; }
+/* == Left Sidebar ========================== */
+
+.hasLeftSidebar .two-third-width { float:right; width:640px; padding-left:40px;  }
+.blog-template   .two-third-width {  width:680px; padding-left:0px; }
+.hasLeftSidebar .sidebar { float:left; width:239px; padding:0 39px  0 0; border-right:1px solid #e3e3e3; padding-bottom:40px;  margin-bottom:0; }
+
+
+
+
+/* Start: Recommended Isotope styles */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
+}

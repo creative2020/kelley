@@ -1,0 +1,41 @@
+-tip,Login Page Background,main_background.gif
+html,background-image,Background Image
+html,background-position,Position
+html,background-repeat,Repeat
+html,background-attachment,Attachment
+html,background-color,Background Color
+-tip,Login Form Header,login_form_header.gif
+#login h1 a,background-image,Header Image/Logo
+#login h1 a,background-position,Position
+#login h1 a,background-repeat,Repeat
+#login h1 a,background-size, Image Background Size
+#login h1 a,background-color,Background Color
+headerurl,custom-header,Custom Header Link URL
+-tip,Login Form,form_background.gif
+form#loginform,background-color,Form Background Color
+-tip,Form Labels,form_labels.gif
+form#loginform label,font-family,Font Family
+form#loginform label,font-size,Font Size
+form#loginform label,color,Font Color
+-tip,Form Login Button,form_login_button.gif
+#loginform input.button-primary,background,Background Color
+#loginform input.button-primary,font-family,Font Family
+#loginform input.button-primary,font-size,Font Size
+#loginform input.button-primary,color,Font Color
+-tip,Login Page Widgets,widgets.gif
+.pb-tailoredlogin-sidebar,background-color,Widget Bar Background Color
+.pb-tailoredlogin-widget,background-color,Widget Background Color
+.pb-tailoredlogin-widget,width,Standard Widget Width
+-tip,Login Page Widget Titles,widget_titles.gif
+.pb-tailoredlogin-widget h4,background-color,Background Color
+.pb-tailoredlogin-widget h4,font-family,Font Family
+.pb-tailoredlogin-widget h4,font-size,Font Size
+.pb-tailoredlogin-widget h4,color,Font Color
+-tip,&quot;Back To Site&quot; Link,back_to_blog_bar.gif
+.login #backtoblog a,font-family,Font Family
+.login #backtoblog a,font-size,Font Size
+.login #backtoblog a,color,Font Color
+-tip,&quot;Lost Password&quot; Link,lost_password_bar.gif
+.login #nav a,font-family,Font Family
+.login #nav a,font-size,Font Size
+.login #nav a,color,Font Color

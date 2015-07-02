@@ -1,0 +1,70 @@
+1.0.0 - 2011-05-26 - Skyler Moore
+	initial release
+1.0.1 - 2011-05-27 - Skyler Moore
+	Auto set border-color for form input button.
+		Updated lib/styleman/styleman.php:
+			lines 152-155 Added
+			// if #loginform input.button-primary background is set also set border-color
+			if ( ( $selector[0] == '#loginform input.button-primary' ) && ( $selector[1] == 'background' ) ) {
+				$block_inner .= "\tborder-color:#" . $line . ";\r\n";
+			}
+1.0.2 - 2011-06-13 - Skyler Moore
+	Updated to latest updater replaced lib/updater.
+1.0.3 - 2011-07-01 - Skyler Moore
+	Updated to the latest updater replaced lib/updater to fix changelog.
+1.0.5 - 2011-07-06 - Ronald Huereca
+	Adding WordPress 3.2 CSS support
+1.0.6 - 2011-07-12 - Dustin Bolton
+	Fixed re-saving styles adding duplicate !important statements.
+1.0.7 - 2011-08-12 - Josh Benham 
+	Updated lib/updater to latest version 1.0.1
+1.0.8 - 2011-09-22 - Ronald Huereca
+	Fixing updater issue
+1.0.9 - 2011-09-22 - Ronald Huereca
+	Fixing updater issue
+1.0.10 - 2011-12-7 - Josh Benham 
+	Added support for new 3.3 media uploader
+1.0.11 - 2011-12-12 - Josh Benham 
+	Fixed version issue
+1.0.12 - 2011-12-16 - Josh Benham 
+	Updated updater
+1.0.13 - 2011-12-26 - Josh Benham 
+	Fixed background styling.
+1.0.14 - 2011-12-28 - Josh Benham 
+	Fixed typo in stylesheet causing background to break again
+1.0.15 - 2012-6-14 - Josh Benham 
+	Fixed 3.4 medialibrary bug
+1.0.16 - 2012-7-2 - Josh Benham
+	Fixed custom header logo url 
+1.0.17 - 2012-7-20 - Josh Benham
+	Added background size settings due to WordPress 3.4 adding background size on the header logo. 
+1.0.18 - 2012-7-26 - Josh Benham
+	Fixed missing space. on line 266
+1.0.19 - 2012-12-11 - Glenn Ansley
+	Updated MediaLibrary for WordPress 3.5
+	Make default HeaderImage Link point to site, not to wordpress.org
+	Add missing 'transparent' image in color picker
+1.0.20 - 2013-04-19 - Chris Jean
+	Added new licensing system.
+	Updated Getting Started page to change PluginBuddy references to iThemes.
+1.0.21 - 2013-05-01 - Packaging Bot
+	Updated lib/updater to version 1.0.1
+1.0.22 - 2013-06-21 - Packaging Bot
+	Updated lib/updater to version 1.0.2
+1.0.23 - 2013-06-26 - Josh Benham
+	Added new icon for dashboard menu.
+	Added compatibility for php 5.5.0.
+	Added compatibility for WordPress 3.6.
+1.0.24 - 2013-07-01 - Chris Jean
+	Added compatibility fix for WordPress 3.6.
+1.0.25 - 2013-09-20 - Packaging Bot
+	Updated lib/updater to version 1.0.3
+1.0.26 - 2013-10-02 - Packaging Bot (lib/updater)
+	Big rewrite to the updater in order to make the code more flexible. This improves compatibility with plugins that allow for remote updating of plugins and themes.
+	The updater now supports providing changelog details for plugins and themes that have updates available. These details can be viewed by clicking the "View version **** details" link for the appropriate plugin or theme.
+1.0.27 - 2013-10-04 - Packaging Bot (lib/updater)
+	Enhancement: When releases with four version digits are released (such as 2.1.0.3), by default, the updater will not offer to update if just this last digit is updated. For instance, it will not automatically offer to update 2.1.0.1 to 2.1.0.3; rather, an automatic upgrade will become available when version 2.1.1 or greater is released. If you wish to force an update to these versions, you can add ithemes-updater-force-minor-update=1 to an admin page request (such as http://domain.com/wp-admin/index.php?ithemes-updater-force-minor-update=1) in order to force the updater make these releases available for an hour. If the update is not performed within the hour, the updater reverts back to default behavior.
+	Bug Fix: Corrected source of the following error when updating: Download failed. SSL certificate problem, verify that the CA cert is OK. Details: error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+	Bug Fix: Corrected source of the following warning: Warning: require_once(/api.php) [function.require-once]: failed to open stream: No such file or directory
+1.0.28 - 2013-10-07 - Packaging Bot (lib/updater)
+	Bug Fix: Corrected another source of the following warning which occur immediate after updating the plugin or theme: Warning: require_once(/api.php) [function.require-once]: failed to open stream: No such file or directory

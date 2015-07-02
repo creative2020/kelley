@@ -1,0 +1,74 @@
+html {
+	background-image: none;
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-attachment: ;
+}
+
+#login h1 a {
+	background-image: ;
+	background-position: ;
+	background-color: ;
+	background-repeat: ;
+	background-size: ;
+}
+
+#login {
+	margin-bottom: 25px;
+}
+
+form#loginform {
+	background-color: ;
+}
+
+form#loginform label {
+	font-family: inherit;
+	font-size: 13px;
+	color: #777777;
+}
+
+#loginform input.button-primary {
+	background: ;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.pb-tailoredlogin-sidebar {
+	background-color: ;
+	margin-bottom: -58px;
+}
+
+.pb-tailoredlogin-widget {
+	background-color: #FFFFFF;
+	width: 282px;
+	border: 1px solid #E5E5E5;
+	border-radius: 11px 11px 11px 11px;
+	box-shadow: 0 4px 18px #C8C8C8;
+	font-weight: normal;
+	padding: 16px 16px 40px;
+        margin: 25px auto;
+}
+
+.pb-tailoredlogin-widget h4 {
+	background-color: ;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size: 18px;
+	color: #555555;
+}
+
+.login #backtoblog a {
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size: 11px;
+	color: #464646;
+}
+
+.login #nav a {
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size: 11px;
+	color: #464646;
+}
+body.login { 
+	background: none;
+}

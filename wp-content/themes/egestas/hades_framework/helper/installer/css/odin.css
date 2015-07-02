@@ -1,0 +1,39 @@
+/* CSS Document */
+
+#starter-kit { padding:20px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+#starter-kit>h4 { color:#343434; font-weight:900; font-size:17px; letter-spacing:-1px;}
+#starter-kit>p {  display:block; padding:10px 0px;  color:#777;  line-height: 14px;letter-spacing: 0; font-size: 11px;}
+
+.formatted { margin:30px 0 0 0; padding:0; }
+.formatted>h5 { color:#343434; font-weight:900; font-size:17px; letter-spacing:-1px; }
+.formatted>p {  text-shadow: 1px 1px 1px #fff;color:#555; font-size:11px; margin-bottom: 20px; color:#777;  line-height: 14px;letter-spacing: 0; font-size: 11px; }
+
+#starter-kit ul  { margin:0px; padding:0; font-size:11px; letter-spacing: 0px;}
+#starter-kit ul li { margin:0!important; padding:0!important; }
+#starter-kit ul li h4 { background:#ffffff; border:1px solid #cccccc; border-radius:2px; -moz-border-radius:2px;  text-align:center; padding:14px 10px; cursor:pointer; margin:20px 0 0 0!important; }
+
+#starter-kit ul li.disabled h4 { color:#444!important; border:1px solid #dfdfdf!important; }
+#starter-kit ul li.active h4{ background:none; color:#21759B!important; }
+
+#starter-kit ul li.disable_menu h4 { color:#999!important; border:1px solid #dfdfdf!important;  }
+
+#starter-kit ul li>div { display:none; }
+#starter-kit ul li:first-child>div { display:block; }
+
+.highlight {  background: #FFFFE0!important; border:1px solid #E6DB55; -webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;color:#111!important;  }
+div.highlight p { color:#111;  line-height: 14px;letter-spacing: 0; font-size: 11px; margin:13px 9px; }
+
+.highlight1 {line-height: 14px;letter-spacing: 0;color:#B84610;margin: 20px 0; font-size: 11px!important;text-align: left;}
+div.highlight1 p { font-size:18px!important; margin:13px 9px; text-shadow: 1px 1px 1px #fff;}
+.highlight1 h4{ font-weight:900; font-size:17px; letter-spacing:-1px;}
+.highlight1 li{ font-weight:500; font-size:13px; letter-spacing:-1px; }
+.helper-tree h4{color:#343434; font-weight:900; font-size:17px; letter-spacing:-1px;}
+.highlight2 { font-weight: bold;color: #fff;background: #21759B !important;-khtml-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;-moz-border-radius: 2px; padding: 6px 15px  5px; border: 1px solid #1c5976!important;margin: 20px 0;}
+div.highlight2 p { font-size:17px!important; margin:13px 9px; text-shadow: 1px 1px 1px #1c5976!important; text-align: center!important; color: #fff;}
+div.highlight2 a { color: #fff; display: block;}
+
+ul.points { color:#027cf9; font-size:12px; }
+ul.points li { margin:8px 2px; font-size:11px; }
+
+#iloader { background: url(../../../css/i/89.gif); width:16px; height:16px; position:absolute; top:10px; left:10px; display:none; }

@@ -1,0 +1,527 @@
+/* CSS Document */
+
+/*
+
+Widget styling for Hades PLus framework 
+
+== Index ==============================
+---------------------------------------
+
+1. Wordpress Native Widgets Styling for Sidebar .
+2. Wordpress Native Widgets Styling for Footer .
+
+=======================================
+
+*/
+
+/* ==================================================================================== */
+/* == Sidebar Styling ================================================================= */
+/* ==================================================================================== */
+
+.sidebar-wrap { padding:40px 0 40px 0; margin:0; border-bottom:1px solid #eee; }
+.sidebar-wrap:last-child { border-bottom:none; }
+.hasRightSidebar .sidebar-wrap { margin-right:0px; padding-right:0; }
+.hasLeftSidebar  .sidebar-wrap{ margin-left:0px; padding-left:0; }
+
+
+
+.sidebar-wrap a.more {
+	background:#F06940;color: #fff;padding: 8px 15px;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;text-transform: uppercase;font-size: 11px;font-weight: 400;
+}
+
+.sidebar .sidebar-wrap h3.heading, .sidebar .sidebar-wrap h3.custom-box-title {
+padding: 0px;
+font-weight: 400;
+font-size: 14px;
+margin: 0 0 15px 0;
+color: #262A30;
+line-height: 1.4;
+text-transform: uppercase;
+}
+
+.sidebar .sidebar-wrap .thunder_button {
+text-decoration: none;
+margin: 0px 5px 5px 0px;
+float: left;
+padding: 9px 18px;
+border-radius: 2px;
+color: #fff;
+background: #F06940;
+text-shadow: none;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 12px;
+border:none;
+}
+
+.sidebar .sidebar-wrap .thunder_button:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #454545;
+
+  border:none;
+}
+
+.sidebar .sidebar-wrap h5  {
+font-size: 16px;
+font-weight: 100;
+line-height: 1.2;
+}
+
+.sidebar-wrap ul { margin:0 ; padding:0; }
+.sidebar-wrap ul li { list-style:none; margin:0;  padding:5px 0px 5px 20px; border-bottom:1px dotted #ddd; display:block; color:#aaa;  background: url(i/widget-arrow.png) 3px 12px no-repeat; }
+.sidebar-wrap ul li:last-child { margin-bottom:0; padding-bottom:0!important; }
+.sidebar-wrap .textwidget { margin-top:11px; }
+
+
+
+
+ul.social-icons li a  { display: block; width:21px; height:21px; overflow:hidden; position:relative; text-indent:-9999px; }
+ul.social-icons li a span{ display: block; width:21px; height:21px; background: url(i/social-sprites.png); position:absolute; top:0; left:0; }
+
+ul.social-icons li a.fb  span.def{ background-position: -3px -2px;  }
+ul.social-icons li a.twitter  span.def { background-position: -3px -27px;  }
+ul.social-icons li a.google  span.def { background-position: -3px -52px; }
+ul.social-icons li a.linkedin  span.def { background-position: -3px -77px; }
+ul.social-icons li a.rss  span.def{ background-position: -3px -102px;  }
+ul.social-icons li a.dribbble  span.def{  background-position: -3px -127px; }
+ul.social-icons li a.pininterest  span.def { background-position: -3px -152px;  }
+
+ul.social-icons li a.fb span.hov{ background-position: -30px -2px ;   opacity:0; }
+ul.social-icons li a.twitter span.hov { background-position: -30px -27px;  opacity:0; }
+ul.social-icons li a.google span.hov { background-position: -30px -52px;  opacity:0;}
+ul.social-icons li a.linkedin span.hov { background-position: -30px -77px;   opacity:0;}
+ul.social-icons li a.rss span.hov { background-position: -30px -102px;  opacity:0; }
+ul.social-icons li a.dribbble span.hov  {  background-position: -30px -127px;  opacity:0; }
+ul.social-icons li a.pininterest span.hov { background-position: -30px -152px;  opacity:0;  }
+.sidebar-wrap .social-set {
+	margin-top:0px;
+	padding: 4px 0px;
+	margin-bottom:0px;
+		
+}
+.sidebar-wrap .social-set ul { margin:0; padding:0; }
+.sidebar-wrap .social-set ul li{
+	float: left;
+	border-bottom: none;
+	
+	margin:0 4px 0 0;
+	padding:0;
+}
+
+.sidebar .sidebar-wrap input[type=text]{
+  display: block;
+  width: 54%;
+  padding: 8px 5px;
+  margin-bottom: 9px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #262A30;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.sidebar .sidebar-wrap input[name=s] { padding:8px 5px; width:50%; }
+
+.sidebar .sidebar-wrap textarea {
+  display: block;
+  width: 94%;
+  height: 170px;
+  padding: 8px;
+  margin-bottom: 9px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #262A30!important;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+
+
+
+.sidebar-wrap .dynamic_forms { margin-top:15px; }
+.fb-widget { margin-top:15px; }
+
+.sidebar-wrap .dynamic_forms form { margin-bottom:0; }
+.sidebar-wrap .dynamic_forms .error input[type=text] , .sidebar-wrap .dynamic_forms .error  textarea{ border:1px solid #F30!important; }
+
+.sidebar-wrap #searchform { padding:0px; margin:0; }
+
+#searchform label { display:none; }
+#searchform input[type=text] {margin-right:16px;  }
+
+.sidebar-wrap .widget-posts { margin:0; padding:0; }
+.sidebar-wrap .widget-posts li { padding-bottom:6px; margin-bottom:15px; padding-left:0; background:none;  }
+
+.sidebar-wrap .widget-posts .image{
+	width: 50px;
+	float: left;
+}
+
+.sidebar-wrap .widget-posts .image img{
+	margin-right: 0px;
+}
+
+.sidebar-wrap .widget-posts .description{
+	float: left;
+	width: 170px;
+	margin-left: 15px;
+}
+
+.sidebar-wrap .widget-posts .description h5{
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	color: #454545;
+}
+
+.sidebar-wrap .widget-posts li:last-child { margin-bottom:0; padding:0; }
+
+.sidebar .sidebar-wrap h3.heading, .sidebar .sidebar-wrap h3.custom-box-title {
+	font-size: 18px;
+	text-transform: none;
+}
+
+.sidebar .sidebar-wrap .tagcloud {
+	margin-top: 5px!important;
+}
+
+.sidebar .sidebar-wrap .tagcloud a {
+	margin-top: 10px!important;
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 11px!important;
+	font-weight: 400;
+}
+.sidebar-wrap ul li { }
+.sidebar-wrap ul li a{
+color: #454545;
+}
+.sidebar-wrap ul li a:hover{
+color: #f06940;
+}
+.sidebar-wrap .latest-tweets { margin:0; padding:0;  }
+.sidebar-wrap .latest-tweets li { line-height:1.8; font-size:12px;color:#81858b;  }
+.sidebar-wrap .latest-tweets li:last-child , .sidebar-wrap .cat-item:last-child , .sidebar-wrap .blogroll   li:last-child{ margin-bottom:0;  }
+.custom-box-content img { float:left; margin:0px 8px 5px 0; }
+.custom-box-content {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.sidebar-wrap a:hover { text-decoration:none;  }
+
+
+div.hasDoubleLeftSidebar .sidebar-wrap .widget-posts .description , div.hasDoubleRightSidebar  .sidebar-wrap .widget-posts .description  , div.hasDoubleSidebar  .sidebar-wrap .widget-posts .description{ width:160px; }
+div.hasDoubleLeftSidebar .sidebar-wrap ul.social-icons li , div.hasDoubleRightSidebar .sidebar-wrap ul.social-icons li , div.hasDoubleSidebar .sidebar-wrap ul.social-icons li { margin-right:8px; }
+
+
+#wp-calendar { width:100%; }
+#wp-calendar caption { font-weight:bold; padding-bottom:6px; text-align: left;}
+#wp-calendar td { padding:14px; }
+#wp-calendar {
+	margin: 0px;
+	display: block;
+	padding: 0;
+	position: relative;
+	}
+	
+	.table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th {
+	background: none;
+	}
+	.table th, .table td {
+	border-top: none;
+	}
+	.table th, .table td col{
+	color: #fff;
+	border-bottom: 1px solid #545963;
+	border-top: 1px solid #545963;
+	}
+
+.google-map {
+	margin: 0px ;
+	display: block;
+	padding: 5px;
+	position: relative;
+	background: white;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	}
+
+.sidebar-wrap ul li:last-child { border-bottom:none; margin-bottom:0; padding-bottom:5px; }
+
+
+.sidebar-wrap p {  line-height:1.8; font-size:12px;color:#81858b; }
+.sidebar-wrap .social-set li {line-height: 1;font-weight: 600;}
+
+
+/* ==================================================================================== */
+/* == Footer Styling ================================================================== */
+/* ==================================================================================== */
+.footer-wrap #searchsubmit { display:none; }
+#footer .footer-wrap a { color:#eee; font-weight:100; }
+#footer .footer-wrap a:hover { color:#fff; text-decoration:none; }
+
+#footer .footer-wrap h3.custom-box-title, #footer .footer-wrap h3.footer-heading { font-size: 18px; margin: 0 0 10px 0; padding: 0px 0 10px 0;font-style: normal; font-weight: 500; letter-spacing: -0.7px; line-height: 20px; }
+#footer .footer-wrap h5 a{ font-size: 14px; letter-spacing: 0px; line-height: 14px;}
+#footer .footer-wrap h3 a { color:#fff; font-weight:400; }
+.footer-wrap {
+color:#fff;
+padding-bottom:5px;
+margin:10px 5px 10px 0;
+}
+
+#footer .footer-wrap #wp-calendar td , #footer .footer-wrap #wp-calendar thead th  ,  #footer .footer-wrap #wp-calendar caption{ color:#333; text-shadow:none  }
+
+#footer .one_fourth .footer-wrap #wp-calendar td , #footer .one_fourth_last .footer-wrap #wp-calendar td { padding:5px 7px; }
+#footer .one_fifth .footer-wrap #wp-calendar td , #footer .one_fifth_last .footer-wrap #wp-calendar td { padding:5px 0px; }
+
+
+
+#footer .footer-wrap .social-set {
+	margin-top:0px;
+	background: white;
+	padding: 4px;
+	border: 1px solid #111;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	
+}
+
+#footer .footer-wrap .social-set ul{
+	margin-left: 20px;
+}
+
+#footer .footer-wrap .social-set ul li{
+	float: left;
+	border-bottom: none;
+	margin-right: 15px;
+	margin-bottom:0;
+}
+
+#footer div.inner-footer-wrapper ul { padding:0; margin:0 ; }
+
+#footer div.inner-footer-wrapper ul li { list-style:none;  margin:6px 0 7px 0;
+padding:0 0 8px 0; }
+#footer div.inner-footer-wrapper ul li:last-child { border-bottom:none!important; }
+/* == Footer Super posts Styling ======================================== */
+
+.footer-wrap .widget-posts { margin-top:-10px!important; }
+.footer-wrap .widget-posts li{
+margin-right:15px;
+padding:15px 0!important;
+margin-bottom:10px;
+
+}
+
+#footer .footer-wrap ul.latest-tweets li:first-child {margin-top: -5px;}
+#footer .footer-wrap ul.latest-tweets li a:hover {color: #5CC6E9;}
+#footer .footer-wrap ul.latest-tweets li {color: #a9aeb4;}
+
+#footer .footer-wrap input[type=text]{
+  display: block;
+  width: 60%;
+  padding: 15px 5px;
+  margin-bottom: 9px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #262A30;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#footer .footer-wrap textarea {
+  display: block;
+  width: 100%;
+  height: 170px;
+  padding: 8px;
+  margin-bottom: 9px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #262A30!important;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#footer .footer-wrap .thunder_button , #footer .footer-wrap input[type=submit] {
+text-decoration: none;
+margin: 0px 5px 5px 0px;
+float: left;
+padding: 9px 18px;
+border-radius: 2px;
+color: #fff;
+background: #F06940;
+text-shadow: none;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 12px;
+border:none;
+}
+#footer .footer-wrap .thunder_button:hover , #footer .footer-wrap input[type=submit]:hover { background: #454545; }
+
+#footer .footer-wrap .dynamic_forms { margin-top:20px; }
+.footer-wrap .widget-posts li:first-child { padding-top:5px; margin-top:-1px; }
+.footer-wrap .widget-posts li:last-child { background:none; border-bottom: none; margin-bottom:0; }
+.footer-wrap .widget-posts li h5 a { color:#142d41; font-size:13px; }
+
+.footer-wrap .widget-posts li h5 {line-height:1.2; margin-bottom:15px; }
+.footer-wrap .widget-posts li h5 a:hover {color:#fff;text-decoration:none;}
+.footer-wrap .widget-posts  li p{ color:#142d41;}
+.footer-wrap .widget-posts  li .image { width:50px; float:left; margin-right:15px; }
+.footer-wrap .widget-posts  li .image a img {  display:block;}
+#footer .footer-wrap ul.widget-posts li a.imageholder {  }
+/* == Recent Comments Styling ============================ */
+
+#footer #recentcomments li {
+list-style:none;
+padding:7px 0 10px 0;
+
+margin-right:15px;
+color:#eee;
+text-shadow:none;
+}
+
+#footer #recentcomments li:last-child {
+border:none;
+}
+
+#footer #recentcomments li a {
+color:#eee;
+}
+
+#footer #recentcomments li a:hover {
+color:#fff;
+text-decoration:underline;
+}
+/* == Page Lists Styling ============================ */
+
+
+#footer .page_item {
+list-style:none;
+padding:7px 0 10px 0;
+
+margin-right:15px;
+color:#eee;
+text-shadow:none;
+}
+
+#footer .page_item a {
+color:#fff;
+}
+
+/* == Blog roll Styling ============================ */
+
+#footer ul.blogroll li {
+list-style:none;
+text-shadow:none;
+
+margin:6px 0 7px 0;
+padding:0 0 8px 0!important;
+color:#fff;
+
+}
+
+#footer .blogroll a {
+
+}
+
+#footer .blogroll a:hover {
+
+text-decoration:none;
+}
+
+#footer #searchform {
+background:none;
+border:none;
+}
+
+/* == Custom Box Styling ============================ */
+
+.footer-wrap a.btn { color:#444!important;  }
+.footer-wrap .custom-box-content p { padding:6px 0; color: #81858B; }
+
+/* == Tweets Styling ============================ */
+
+#footer .footer-wrap .latest-tweets li:last-child {
+background:none;
+}
+
+#footer .footer-wrap .latest-tweets li a {
+color:#eee;
+}
+
+#footer .footer-wrap .latest-tweets li a:hover {
+color:#fff;
+text-decoration:none;
+}
+
+#footer .footer-wrap ul.latest-tweets li {
+	
+margin:6px 0 7px 0;
+padding:0 0 8px 0!important;
+
+display:block;
+color:#ddd;
+
+}
+
+#footer .footer-wrap .latest-tweets li:last-child {
+border-bottom: none;
+}
+
+
+#footer .footer-wrap .authorlink { float:right; color:#fff; text-transform:uppercase; font-size:10px; }
+
+/* == Categories Styling ============================ */
+
+#footer li.cat-item {
+
+margin:6px 0 7px 0;
+padding:0 0 8px 0!important;
+
+}
+
+#footer .cat-item a {
+
+font-weight:100;
+
+}
+
+/* == Tag Styling ============================ */
+
+#footer .tagcloud {
+margin:5px 0;
+padding-bottom:20px;
+}
+
+#footer .tagcloud a {
+background: #eee url(i/buton-bg.png) repeat-x;
+border: 1px solid #333!important;
+display:inline-block;
+padding:3px 13px;
+margin-right:2px;
+font-size:11px!important;
+border-radius:2px;
+text-shadow:none;
+font-weight: 600;
+color:#333!important;
+}
+
+#footer .tagcloud a:hover {
+background: #fff url(i/buton-bg.png) repeat-x; color: #353535;
+}
+
+#footer  .footer-wrap input[type=text]:focus , #footer  .footer-wrap textarea:focus { box-shadow:none; }
+

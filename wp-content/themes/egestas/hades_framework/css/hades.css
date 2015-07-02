@@ -1,0 +1,83 @@
+/* CSS Document 
+
+Authors - WPTitans
+Description - This styling deals with styling of backend admin panel only.
+
+*/
+
+
+/* ============================================================ */
+/* == Iconable ================================================ */
+/* ============================================================ */
+
+.home-layout { margin:10px; }
+.home-layout li { float:left; margin:4px; }
+.home-layout li a{  width:61px; height:61px; display:block;   }
+.home-layout li.active a { border:1px solid #ddd; }
+.home-layout li.full-width a {  background: url(i/layout-sprites.jpg) -10px -10px no-repeat; }
+.home-layout li.hasLeftSidebar a {  background: url(i/layout-sprites.jpg) -110px -10px no-repeat; }
+.home-layout li.hasRightSidebar a {  background: url(i/layout-sprites.jpg) -210px -10px no-repeat; }
+
+
+.post-layout , .page-layout { margin:10px; }
+.post-layout li , .page-layout li { float:left; margin:4px; }
+.post-layout li a , .page-layout li a{  width:61px; height:61px; display:block;   }
+.post-layout li.active a , .page-layout li.active a { border:1px solid #ddd; }
+.post-layout li.full-width a  , .page-layout li.full-width a {  background: url(i/layout-sprites.jpg) -10px -10px no-repeat; }
+.post-layout li.hasLeftSidebar a , .page-layout li.hasLeftSidebar a {  background: url(i/layout-sprites.jpg) -110px -10px no-repeat; }
+.post-layout li.hasRightSidebar a , .page-layout li.hasRightSidebar a {  background: url(i/layout-sprites.jpg) -210px -10px no-repeat; }
+
+.post-layout li.hasDoubleLeftSidebar a , .page-layout li.hasDoubleLeftSidebar a{  background: url(i/layout-sprites.jpg) -510px -10px no-repeat; }
+.post-layout li.hasDoubleRightSidebar a , .page-layout li.hasDoubleRightSidebar a {  background: url(i/layout-sprites.jpg) -410px -10px no-repeat; }
+.post-layout li.hasDoubleSidebar a , .page-layout li.hasDoubleSidebar a {  background: url(i/layout-sprites.jpg) -310px -10px no-repeat; }
+
+
+.footer-layout { margin:10px; display:block; width:500px; float:left; }
+.footer-layout li { float:left; margin:4px; }
+.footer-layout li a{  width:61px; height:61px; display:block; border:1px solid transparent;   }
+.footer-layout li.active a { border:1px solid #ddd; }
+.footer-layout li.two-col a {  background: url(i/layout-sprites.jpg) -610px -10px no-repeat; }
+.footer-layout li.three-col a {  background: url(i/layout-sprites.jpg) -710px -10px no-repeat; }
+.footer-layout li.four-col a {  background: url(i/layout-sprites.jpg) -10px -110px no-repeat; }
+.footer-layout li.five-col a {  background: url(i/layout-sprites.jpg) -110px -110px no-repeat; }
+.footer-layout li.six-col a {  background: url(i/layout-sprites.jpg) -210px -110px no-repeat; }
+
+.footer-layout li.one-third a {  background: url(i/layout-sprites.jpg) -310px -110px no-repeat; }
+.footer-layout li.one-fourth a {  background: url(i/layout-sprites.jpg) -410px -110px no-repeat; }
+.footer-layout li.one-fifth a {  background: url(i/layout-sprites.jpg) -510px -110px no-repeat; }
+
+
+.custom-layout-area { border:1px solid #ddd; border-radius:4px; margin:5px 20px; background:#fff;}
+
+.custom-layout-area .custom_canvas { width:500px; margin:60px auto; border:1px solid #ddd; padding:0; }
+
+.custom-layout-area .custom_canvas h5 { display:block; color:#333; font-size:13px; text-align:center; }
+.custom-layout-area .custom_canvas span { display:block; color:#888; font-size:12px; text-align:center; }
+
+.custom-layout-area .custom_canvas .main-area { width:300px; float:left;  margin:0; padding:0; height:200px; position:relative; }
+.custom-layout-area .custom_canvas .sidebar { width:200px; float:left; margin:0; padding:0; height:200px; }
+
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute; top:0; right:0; width:5px; background:#cbe3ff; height:200px; border-left:1px dotted #738ba9; border-right:1px dotted #738ba9; z-index: 99999; display: block; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 100%; }
+
+.preview-font { margin:20px; background:#fafafa; border:1px solid #E6E6E6; padding:30px;-webkit-border-radius: 3px;border-radius: 3px;border-width: 1px;border-style: solid; }
+
+/* ============================================================ */
+/* == Visual Panel Styling ==================================== */
+/* ============================================================ */
+
+#visual_plain_panel h2 , #visual_textured_panel h2 {font-size: 18px;} 
+
+#visual_plain_panel ul li , #visual_textured_panel ul li { float:left; width:80px;  margin:10px; }
+#visual_plain_panel ul li span {  display:block; margin-top:5px;}
+#visual_plain_panel ul li img  , #visual_textured_panel ul li img{ display:block; opacity:0.5;  }
+#visual_plain_panel ul li a  , #visual_textured_panel ul  li a { display:block; text-align:center; color:#777; margin:0; text-decoration:none; }
+#visual_plain_panel ul li:hover img { opacity:1; }
+#visual_plain_panel ul li.active a img  , #visual_textured_panel ul  li.active a img{ opacity:1;  }
+#visual_plain_panel ul li.active a { color:#06F; }
+
+#visual_plain_panel ul, #visual_textured_panel ul {
+display: block;
+margin: 20px 200px 30px 7px;
+}

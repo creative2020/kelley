@@ -1,0 +1,697 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultrici\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-05 12:09+0530\n"
+"PO-Revision-Date: 2012-10-05 12:09+0530\n"
+"Last-Translator: WPTitans <abhin_sh@yahoo.com>\n"
+"Language-Team: WPTitans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive.php:156
+#: ../author.php:161
+#: ../category.php:155
+#: ../search.php:157
+#: ../tag.php:156
+msgid "No posts yet !"
+msgstr ""
+
+#: ../author.php:62
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../comments.php:9
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:27
+#: ../comments.php:39
+msgid " Older Comments"
+msgstr ""
+
+#: ../comments.php:28
+msgid "Newer Comments "
+msgstr ""
+
+#: ../comments.php:40
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:59
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:63
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:70
+msgid "You must be"
+msgstr ""
+
+#: ../comments.php:70
+msgid "logged in"
+msgstr ""
+
+#: ../comments.php:70
+msgid " to post a comment."
+msgstr ""
+
+#: ../comments.php:71
+msgid "Logged in as "
+msgstr ""
+
+#: ../comments.php:71
+msgid "Log out?"
+msgstr ""
+
+#: ../comments.php:72
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../comments.php:73
+msgid "You may use these"
+msgstr ""
+
+#: ../comments.php:73
+msgid " tags and attributes:"
+msgstr ""
+
+#: ../comments.php:76
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:77
+msgid "Leave a Reply to"
+msgstr ""
+
+#: ../comments.php:78
+msgid "Cancel reply"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Post Comment"
+msgstr ""
+
+#: ../header.php:27
+#: ../header.php:34
+msgid "name"
+msgstr ""
+
+#: ../header.php:29
+msgid "Browsing the Category "
+msgstr ""
+
+#: ../header.php:32
+msgid "Search Results for"
+msgstr ""
+
+#: ../header.php:33
+msgid "404 - Page got lost!"
+msgstr ""
+
+#: ../header.php:34
+msgid "-"
+msgstr ""
+
+#: ../template-sitemap.php:87
+msgid "Posts"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:115
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:134
+msgid "Pingback:"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:134
+msgid "(Edit)"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:309
+msgid "This is a dynamic sidebar"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:368
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:369
+msgid "Edit Portfolio"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:370
+msgid "New Portfolio"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:371
+msgid "All Portfolio"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:372
+msgid "View Portfolio"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:373
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:374
+msgid "Not Found"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:375
+msgid "Not Found in Trash"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:377
+msgid "Portfolio"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:383
+msgid "Add your Portfolio here"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:439
+msgid "Add item"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:449
+#: ../hades_framework/helper/helper.php:520
+msgid "Expand"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:450
+#: ../hades_framework/helper/helper.php:521
+msgid "Delete"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:461
+#: ../hades_framework/helper/helper.php:532
+msgid "Upload Image/Media Link:"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:463
+#: ../hades_framework/helper/helper.php:534
+msgid "Upload"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:467
+#: ../hades_framework/helper/helper.php:538
+msgid "Layout:"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:483
+#: ../hades_framework/helper/helper.php:551
+msgid "Media Type:"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:1617
+msgid "BACK TO TOP"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:1938
+msgid "Page Layout"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:1950
+msgid "Select Sidebar"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:1959
+msgid "Sidebar"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:1984
+msgid "Sidebar 2"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2006
+msgid "Titan Template ( It will override Content from Editor )"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2030
+msgid "Select Featued Media"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2072
+msgid "Video Link ( To activate select video in featured media)"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2138
+msgid "Select Categories to include( If empty all categories will be included)"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2174
+msgid "Select Order"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2702
+msgid "Archive by category "
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2773
+msgid "Search results for "
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2776
+msgid "Posts tagged"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2781
+msgid "Articles posted by "
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2784
+msgid "Error 404"
+msgstr ""
+
+#: ../hades_framework/helper/helper.php:2789
+msgid "Page"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:419
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:446
+msgid "Column"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:447
+msgid "(Mega Menu)"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:448
+msgid "Widget"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:477
+#: ../hades_framework/helper/megamenu.php:479
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:489
+msgid "URL"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:496
+msgid "Navigation Label"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:502
+msgid "Title Attribute"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:508
+msgid "Subtitle"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:514
+msgid "Link Target"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:516
+msgid "Same window or tab"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:517
+msgid "New window or tab"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:523
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:529
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:535
+msgid "Description"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:537
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:565
+msgid "Original:"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:578
+msgid "Remove"
+msgstr ""
+
+#: ../hades_framework/helper/megamenu.php:579
+msgid "Cancel"
+msgstr ""
+
+#: ../hades_framework/helper/shortcodes.php:167
+msgid "no Comments"
+msgstr ""
+
+#: ../hades_framework/helper/shortcodes.php:167
+msgid "one Comment"
+msgstr ""
+
+#: ../hades_framework/helper/shortcodes.php:167
+msgid " Comments"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:40
+msgid "Add google map."
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:44
+msgid "Google map"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:67
+#: ../hades_framework/helper/widgets.php:384
+#: ../hades_framework/helper/widgets.php:518
+#: ../hades_framework/helper/widgets.php:677
+msgid "Title"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:72
+msgid "Map Width"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:77
+msgid "Map Height"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:82
+msgid "Enter Address"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:125
+msgid " Create a custom text box with read more link and image."
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:129
+msgid "CustomBox"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:153
+#: ../hades_framework/helper/widgets.php:804
+msgid "Title:"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:157
+msgid "Intro Image Link: ( if empty image not will appear )"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:165
+msgid "Text"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:170
+msgid "Link:( if empty link will not appear )"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:175
+msgid "Label for button"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:253
+msgid "Number of Tweets to Retrieve:"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:348
+msgid "Add facebook Like box to your sidebar."
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:352
+msgid "Facebook Like Box"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:389
+msgid "Add facebook page link"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:394
+msgid "Width"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:399
+msgid "Show friends"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:404
+msgid "Show Head"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:409
+msgid "Show Stream"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:457
+msgid "Show Popular or Recent posts from Blog, Portfolio , Gallery and your dynamic custom posts."
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:461
+msgid "Super Posts"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:483
+msgid "Post Type"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:500
+msgid "Blog Posts Filter"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:524
+msgid "Number of posts to display"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:529
+msgid "Enter excerpt Words Limit"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:653
+msgid "Create a quick contact form."
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:657
+msgid "Create Quick Contact Form"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:765
+msgid "Creates a list with popular social sites."
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:769
+msgid "SocialSet"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:809
+msgid "Enter your Google Profile link:"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:814
+msgid "Enter your linkedin Profile link:"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:819
+msgid "Enter your facebook Profile link:"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:824
+msgid "Enter your twitter Profile link:"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:829
+msgid "Enter your Feedburner link:"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:834
+msgid "Enter your Pininterest Profile link:"
+msgstr ""
+
+#: ../hades_framework/helper/widgets.php:839
+msgid "Enter your dribbble Profile link:"
+msgstr ""
+
+#: ../hades_framework/helper/installer/init.php:127
+msgid " has been activated succesfully   "
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/parsers.php:42
+#: ../hades_framework/helper/installer/importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/parsers.php:67
+#: ../hades_framework/helper/installer/importer/parsers.php:72
+#: ../hades_framework/helper/installer/importer/parsers.php:251
+#: ../hades_framework/helper/installer/importer/parsers.php:433
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:134
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:143
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:194
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:202
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:210
+#, php-format
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:235
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:261
+msgid "Assign Authors"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:262
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:264
+#, php-format
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:274
+msgid "Import Attachments"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:277
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:294
+msgid "Import author:"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:305
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:308
+msgid "as a new user:"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:316
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:318
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:319
+msgid "- Select -"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:367
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:414
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:450
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:535
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:604
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:713
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:720
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:783
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:820
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:826
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:833
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:838
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:844
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:943
+msgid "Import WordPress"
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:950
+#, php-format
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:965
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:966
+msgid "Choose a WXR file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../hades_framework/helper/installer/importer/wordpress-importer.php:1040
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr ""
+
